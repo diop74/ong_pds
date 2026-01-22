@@ -1,0 +1,169 @@
+{
+  "brand_identity": {
+    "name": "Porte du Savoir (Udditaare Ganndal)",
+    "theme": "light",
+    "primary_concept": "The Oasis of Knowledge - Bridging the gap between desert isolation and global opportunity through education.",
+    "emotional_tone": "Trustworthy, Hopeful, Transparent, Community-Driven",
+    "archetype": "Organic & Earthy (Adapted for Education)"
+  },
+  "colors": {
+    "primary": {
+      "name": "Ocean Knowledge",
+      "hex": "#0C4A6E",
+      "tailwind": "bg-sky-900",
+      "usage": "Primary Headings, Footer, Strong CTAs"
+    },
+    "secondary": {
+      "name": "Growth Emerald",
+      "hex": "#10B981",
+      "tailwind": "bg-emerald-500",
+      "usage": "Success states, Secondary Buttons, Highlights"
+    },
+    "accent": {
+      "name": "Mauritanian Sand",
+      "hex": "#D97706",
+      "tailwind": "bg-amber-600",
+      "usage": "Micro-interactions, Focus rings, 'Donate' highlights"
+    },
+    "background": {
+      "name": "Academic Paper",
+      "hex": "#F8FAFC",
+      "tailwind": "bg-slate-50",
+      "usage": "Main background"
+    },
+    "surface": {
+      "name": "Clean Slate",
+      "hex": "#FFFFFF",
+      "tailwind": "bg-white",
+      "usage": "Cards, Modals, Dropdowns"
+    },
+    "text": {
+      "primary": "#0F172A",
+      "secondary": "#475569",
+      "muted": "#94A3B8"
+    }
+  },
+  "typography": {
+    "headings": {
+      "family": "Outfit, sans-serif",
+      "weights": ["600", "700"],
+      "tracking": "-0.02em",
+      "usage": "H1, H2, H3 - Modern, geometric, friendly"
+    },
+    "body": {
+      "family": "Public Sans, sans-serif",
+      "weights": ["400", "500"],
+      "line_height": "1.6",
+      "usage": "Paragraphs, UI text - Highly legible"
+    },
+    "accent": {
+      "family": "Caveat, cursive",
+      "usage": "Quotes, 'Handwritten' notes for human touch"
+    }
+  },
+  "layout_strategies": {
+    "container": "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
+    "spacing": {
+      "section_padding": "py-20 lg:py-32",
+      "element_gap": "gap-8 lg:gap-12"
+    },
+    "grids": {
+      "bento_marketing": "grid grid-cols-1 md:grid-cols-8 lg:grid-cols-12 gap-6",
+      "dashboard_dense": "grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4"
+    },
+    "z_index": {
+      "header": "z-50",
+      "modal": "z-50",
+      "dropdown": "z-40",
+      "decorative": "z-0"
+    }
+  },
+  "components": {
+    "buttons": {
+      "primary": "rounded-full px-8 py-3 bg-sky-900 text-white hover:bg-sky-800 transition-all shadow-lg hover:shadow-sky-900/20 hover:-translate-y-0.5",
+      "secondary": "rounded-full px-8 py-3 bg-emerald-100 text-emerald-800 hover:bg-emerald-200 transition-all",
+      "outline": "rounded-full px-8 py-3 border-2 border-sky-900 text-sky-900 hover:bg-sky-50 transition-all"
+    },
+    "cards": {
+      "marketing": "bg-white rounded-2xl p-8 shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-slate-100 hover:shadow-[0_8px_30px_rgb(0,0,0,0.08)] transition-all duration-300",
+      "dashboard": "bg-white rounded-xl p-6 border border-slate-200 shadow-sm"
+    },
+    "inputs": {
+      "style": "rounded-lg border-slate-200 focus:ring-2 focus:ring-sky-500 focus:border-transparent bg-slate-50 focus:bg-white transition-all"
+    }
+  },
+  "visual_enhancers": {
+    "glassmorphism": "backdrop-blur-xl bg-white/80 border-b border-white/20 shadow-sm",
+    "gradients": {
+      "hero_overlay": "bg-gradient-to-r from-sky-900/90 to-emerald-900/80",
+      "subtle_glow": "bg-gradient-to-tr from-sky-100/50 via-white to-emerald-50/50"
+    },
+    "textures": "Use subtle noise overlay (opacity 0.03) on solid backgrounds to prevent 'digital flatness'",
+    "shadows": {
+      "soft": "shadow-[0_4px_20px_-2px_rgba(0,0,0,0.05)]",
+      "floating": "shadow-[0_20px_40px_-10px_rgba(0,0,0,0.1)]"
+    }
+  },
+  "motion": {
+    "transitions": "transition-all duration-300 ease-out",
+    "micro_interactions": "hover:scale-[1.02] active:scale-[0.98]",
+    "scroll_reveal": "Use Framer Motion for 'whileInView' fade-ups with 0.1s stagger"
+  },
+  "media": {
+    "image_urls": {
+      "hero_main": {
+        "url": "https://images.unsplash.com/photo-1521493959102-bdd6677fdd81?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1ODB8MHwxfHNlYXJjaHwxfHxhZnJpY2FuJTIwc3R1ZGVudHMlMjBsZWFybmluZyUyMGNsYXNzcm9vbSUyMGhhcHB5fGVufDB8fHx8MTc2ODkwNzg5Mnww&ixlib=rb-4.1.0&q=85",
+        "alt": "Happy students looking through a window, representing hope and future",
+        "category": "Hero"
+      },
+      "about_community": {
+        "url": "https://images.unsplash.com/photo-1555069855-e580a9adbf43?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1NzZ8MHwxfHNlYXJjaHwxfHxkaXZlcnNlJTIwY29tbXVuaXR5JTIwbWVldGluZyUyMGRpc2N1c3Npb24lMjBncm91cHxlbnwwfHx8fDE3Njg5MDc4OTZ8MA&ixlib=rb-4.1.0&q=85",
+        "alt": "Community meeting circle, representing democratic decision making",
+        "category": "About"
+      },
+      "project_education": {
+        "url": "https://images.unsplash.com/flagged/photo-1579133311477-9121405c78dd?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1ODB8MHwxfHNlYXJjaHwyfHxhZnJpY2FuJTIwc3R1ZGVudHMlMjBsZWFybmluZyUyMGNsYXNzcm9vbSUyMGhhcHB5fGVufDB8fHx8MTc2ODkwNzg5Mnww&ixlib=rb-4.1.0&q=85",
+        "alt": "Classroom session, representing structured learning projects",
+        "category": "Projects"
+      },
+      "mauritania_context": {
+        "url": "https://images.pexels.com/photos/35110927/pexels-photo-35110927.jpeg",
+        "alt": "Mauritanian landscape, providing local context",
+        "category": "Context"
+      }
+    },
+    "icons": "Use Lucide React icons. Stroke width 1.5px for elegance."
+  },
+  "accessibility": {
+    "contrast": "Ensure text is WCAG AA compliant. Use slate-900 for body text on white.",
+    "focus_states": "Visible focus rings using amber-500 (accent color) for keyboard navigation.",
+    "semantic_html": "Use <main>, <nav>, <article>, <section> tags correctly."
+  },
+  "instructions_to_main_agent": {
+    "general": "Build a high-trust, emotionally resonant interface. Avoid generic 'Bootstrap' looks. Use the 'Bento' grid for the project showcase.",
+    "admin_panel": "Keep the admin panel clean and dense (Mode B grid). Use Shadcn tables and forms. Do not over-animate the admin side.",
+    "public_pages": "Use 'Mode A' grid. Prioritize storytelling. The 'Donate' button should be prominent in the nav bar (Pill shape, Accent color).",
+    "navigation": "Implement a sticky header that becomes glassmorphic on scroll.",
+    "forms": "Use Shadcn Form components but style them with the 'Clean Slate' input styles defined above."
+  },
+  "UNIVERSAL_GUIDELINES_FOR_MAIN_AGENT": [
+    "Dark colors look good when used independently without gradients. DO NOT use dark colors as gradients",
+    "Don't make generic centered layouts, simplistic gradients, and uniform styling.",
+    "Create depth through layered design elements with z-index hierarchy",
+    "Use glass-morphism effects with backdrop filters (12-24px blur)",
+    "You MUST NOT apply universal transition. Eg: transition: all. This results in breaking transforms. Always add transitions for specific interactive elements like button, input excluding transforms",
+    "You MUST NOT center align the app container, ie do not add .App { text-align: center; } in the css file. This disrupts the human natural reading flow of text",
+    "Always use modern button styles like pill-shaped, or sharp button with interaction animations & color relevant to the app style",
+    "NEVER: use AI assistant Emoji characters like 🤖🧠💭💡🔮🎯📚🎭🎬🎪🎉🎊🎁🎀🎂🍰🎈🎨🎰💰💵💳🏦💎🪙💸🤑📊📈📉💹🔢🏆🥇 etc for icons.",
+    "Every interaction needs micro-animations - hover states, transitions, parallax effects, and entrance animations. Static = dead.",
+    "Use 2-3x more spacing than feels comfortable. Cramped designs look cheap.",
+    "Subtle grain textures, noise overlays, custom cursors, selection states, and loading animations: separates good from extraordinary.",
+    "Main agent relies on these image URLs. Missing categories (especially sponsor logos) = main agent will use placeholder text which is FORBIDDEN",
+    "Prioritize using pre-existing components from src/components/ui when applicable",
+    "Create new components that match the style and conventions of existing components when needed",
+    "Examine existing components to understand the project's component patterns before creating new ones",
+    "Components MUST use named exports (export const ComponentName = ...)",
+    "Pages MUST use default exports (export default function PageName() {...})",
+    "Use sonner for toasts. Sonner component are located in /app/src/components/ui/sonner.tsx"
+  ]
+}
